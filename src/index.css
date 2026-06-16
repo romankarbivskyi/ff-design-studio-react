@@ -7,6 +7,8 @@
   --color-paragraph1: #000000;
   --color-paragraph2: #767676;
   --color-divider: #000000;
+
+  --breakpoint-xs: 480px;
 }
 
 @layer base {
@@ -37,5 +39,11 @@
 
   p {
     @apply text-[15px] leading-[110%] font-normal tracking-[-3%] md:text-[16px];
+  }
+}
+
+@layer components {
+  .navlink {
+    @apply text-[20px] leading-[-5%] hover:underline;
   }
 }
