@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap");
+
+@import "tailwindcss";
+
+@theme {
+  --color-background: #ffffff;
+  --color-paragraph1: #000000;
+  --color-paragraph2: #767676;
+  --color-divider: #000000;
+}
+
+@layer base {
+  :root {
+    font-family: "Instrument Sans", sans-serif;
+    @apply bg-background text-paragraph1;
+  }
+
+  h1 {
+    @apply text-[44px] leading-[110%] font-normal tracking-[-5%] md:text-[64px];
+  }
+
+  h2 {
+    @apply text-[24px] leading-[110%] font-normal tracking-[-3%] md:text-[30px] xl:text-[37px];
+  }
+
+  h3 {
+    @apply text-[30px] leading-[100%] font-normal tracking-[-2%];
+  }
+
+  h4 {
+    @apply text-[24px] leading-[100%] font-normal tracking-[-5%];
+  }
+
+  h5 {
+    @apply text-[15px] leading-[110%] font-semibold tracking-[-3%] md:text-[16px];
+  }
+
+  p {
+    @apply text-[15px] leading-[110%] font-normal tracking-[-3%] md:text-[16px];
+  }
+}
