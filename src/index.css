@@ -4,8 +4,8 @@
 
 @theme {
   --color-background: #ffffff;
-  --color-paragraph1: #000000;
-  --color-paragraph2: #767676;
+  --color-para1: #000000;
+  --color-para2: #767676;
   --color-divider: #000000;
 
   --breakpoint-xs: 480px;
@@ -14,7 +14,7 @@
 @layer base {
   :root {
     font-family: "Instrument Sans", sans-serif;
-    @apply bg-background text-paragraph1;
+    @apply bg-background text-para1;
   }
 
   h1 {
@@ -46,4 +46,8 @@
   .navlink {
     @apply text-[20px] leading-[-5%] hover:underline;
   }
+}
+
+@utility no-scrollbar {
+  scrollbar-width: none;
 }
