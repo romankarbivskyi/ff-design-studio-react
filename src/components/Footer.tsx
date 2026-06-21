@@ -10,29 +10,41 @@ const Footer = () => {
             className="h-14.5 w-14.5"
           />
         </div>
-        <div className="navlink flex flex-1 justify-between">
+        <div className="flex flex-1 justify-between">
           <div className="max-w-56.75 space-y-15">
             <div className="flex flex-col gap-7.5">
-              <span>OFFICE</span>
-              <p>
+              <span className="navlink">OFFICE</span>
+              <p className="navlink">
                 15 Candyland Lane <br /> 28010 San Francisco
               </p>
             </div>
             <div className="flex flex-col gap-7.5">
-              <span>CONTACT</span>
+              <span className="navlink">CONTACT</span>
               <div className="flex flex-col">
-                <a href="tel:+16465554567">(646) 555-4567</a>
-                <a href="mailto:hello@figma.com">hello@figma.com</a>
+                <a href="tel:+16465554567" className="navlink">
+                  (646) 555-4567
+                </a>
+                <a href="mailto:hello@figma.com" className="navlink">
+                  hello@figma.com
+                </a>
               </div>
             </div>
           </div>
           <div className="flex flex-col gap-7.5">
-            <span>SOCIAL</span>
+            <span className="navlink">SOCIAL</span>
             <div className="flex flex-col gap-2.5">
-              <a href="#">Instagram</a>
-              <a href="#">Behance</a>
-              <a href="#">Spotify</a>
-              <a href="#">LinkedIn</a>
+              <a href="#" className="navlink">
+                Instagram
+              </a>
+              <a href="#" className="navlink">
+                Behance
+              </a>
+              <a href="#" className="navlink">
+                Spotify
+              </a>
+              <a href="#" className="navlink">
+                LinkedIn
+              </a>
             </div>
           </div>
         </div>
