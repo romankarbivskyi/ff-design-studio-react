@@ -24,7 +24,12 @@ const ProjectItem = ({ project }: ProjectItemProps) => {
       <div className="overflow-hidden">
         <div className="no-scrollbar flex flex-nowrap gap-5 overflow-auto">
           {project.imageUrls.map((url, index) => (
-            <img key={index} src={url} alt={`${project.title} ${index + 1}`} />
+            <img
+              key={index}
+              src={url}
+              alt={`${project.title} ${index + 1}`}
+              className="flex-1"
+            />
           ))}
         </div>
       </div>
