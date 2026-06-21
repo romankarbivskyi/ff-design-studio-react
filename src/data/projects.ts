@@ -13,6 +13,27 @@ export const projects: Project[] = [
       "/images/projects/1/Image3.jpg",
     ],
     projectUrl: "/projects/1",
+    details: {
+      title: "Anders Interiors",
+      description:
+        "Can a digital catalog capture the essence of luxury furniture? Anders Interior asked us to create a digital catalog that mirrored the elegance of their brand. See how we combined refined typography, stunning visuals, and intuitive design to deliver an online experience that truly resonates with their discerning clientele.",
+      tags: [
+        "Digital Catalog & Typography",
+        "Branding",
+        "Website",
+        "Logo",
+        "Art Direction",
+      ],
+      imageUrls: [
+        "/images/projects/5/details/Image1.jpg",
+        "/images/projects/5/details/Image2.jpg",
+        "/images/projects/5/details/Image3.jpg",
+        "/images/projects/5/details/Image4.jpg",
+        "/images/projects/5/details/Image5.jpg",
+        "/images/projects/5/details/Image6.jpg",
+        "/images/projects/5/details/Image7.jpg",
+      ],
+    },
   },
   {
     id: "2",
@@ -26,6 +47,27 @@ export const projects: Project[] = [
       "/images/projects/2/Image3.jpg",
     ],
     projectUrl: "/projects/2",
+    details: {
+      title: "Anders Interiors",
+      description:
+        "Can a digital catalog capture the essence of luxury furniture? Anders Interior asked us to create a digital catalog that mirrored the elegance of their brand. See how we combined refined typography, stunning visuals, and intuitive design to deliver an online experience that truly resonates with their discerning clientele.",
+      tags: [
+        "Digital Catalog & Typography",
+        "Branding",
+        "Website",
+        "Logo",
+        "Art Direction",
+      ],
+      imageUrls: [
+        "/images/projects/5/details/Image1.jpg",
+        "/images/projects/5/details/Image2.jpg",
+        "/images/projects/5/details/Image3.jpg",
+        "/images/projects/5/details/Image4.jpg",
+        "/images/projects/5/details/Image5.jpg",
+        "/images/projects/5/details/Image6.jpg",
+        "/images/projects/5/details/Image7.jpg",
+      ],
+    },
   },
   {
     id: "3",
@@ -39,6 +81,27 @@ export const projects: Project[] = [
       "/images/projects/3/Image3.jpg",
     ],
     projectUrl: "/projects/3",
+    details: {
+      title: "Anders Interiors",
+      description:
+        "Can a digital catalog capture the essence of luxury furniture? Anders Interior asked us to create a digital catalog that mirrored the elegance of their brand. See how we combined refined typography, stunning visuals, and intuitive design to deliver an online experience that truly resonates with their discerning clientele.",
+      tags: [
+        "Digital Catalog & Typography",
+        "Branding",
+        "Website",
+        "Logo",
+        "Art Direction",
+      ],
+      imageUrls: [
+        "/images/projects/5/details/Image1.jpg",
+        "/images/projects/5/details/Image2.jpg",
+        "/images/projects/5/details/Image3.jpg",
+        "/images/projects/5/details/Image4.jpg",
+        "/images/projects/5/details/Image5.jpg",
+        "/images/projects/5/details/Image6.jpg",
+        "/images/projects/5/details/Image7.jpg",
+      ],
+    },
   },
   {
     id: "4",
@@ -52,6 +115,27 @@ export const projects: Project[] = [
       "/images/projects/4/Image3.jpg",
     ],
     projectUrl: "/projects/4",
+    details: {
+      title: "Anders Interiors",
+      description:
+        "Can a digital catalog capture the essence of luxury furniture? Anders Interior asked us to create a digital catalog that mirrored the elegance of their brand. See how we combined refined typography, stunning visuals, and intuitive design to deliver an online experience that truly resonates with their discerning clientele.",
+      tags: [
+        "Digital Catalog & Typography",
+        "Branding",
+        "Website",
+        "Logo",
+        "Art Direction",
+      ],
+      imageUrls: [
+        "/images/projects/5/details/Image1.jpg",
+        "/images/projects/5/details/Image2.jpg",
+        "/images/projects/5/details/Image3.jpg",
+        "/images/projects/5/details/Image4.jpg",
+        "/images/projects/5/details/Image5.jpg",
+        "/images/projects/5/details/Image6.jpg",
+        "/images/projects/5/details/Image7.jpg",
+      ],
+    },
   },
   {
     id: "5",
@@ -65,6 +149,27 @@ export const projects: Project[] = [
       "/images/projects/5/Image3.jpg",
     ],
     projectUrl: "/projects/5",
+    details: {
+      title: "Anders Interiors",
+      description:
+        "Can a digital catalog capture the essence of luxury furniture? Anders Interior asked us to create a digital catalog that mirrored the elegance of their brand. See how we combined refined typography, stunning visuals, and intuitive design to deliver an online experience that truly resonates with their discerning clientele.",
+      tags: [
+        "Digital Catalog & Typography",
+        "Branding",
+        "Website",
+        "Logo",
+        "Art Direction",
+      ],
+      imageUrls: [
+        "/images/projects/5/details/Image1.jpg",
+        "/images/projects/5/details/Image2.jpg",
+        "/images/projects/5/details/Image3.jpg",
+        "/images/projects/5/details/Image4.jpg",
+        "/images/projects/5/details/Image5.jpg",
+        "/images/projects/5/details/Image6.jpg",
+        "/images/projects/5/details/Image7.jpg",
+      ],
+    },
   },
   {
     id: "6",
@@ -78,5 +183,26 @@ export const projects: Project[] = [
       "/images/projects/6/Image3.jpg",
     ],
     projectUrl: "/projects/6",
+    details: {
+      title: "Anders Interiors",
+      description:
+        "Can a digital catalog capture the essence of luxury furniture? Anders Interior asked us to create a digital catalog that mirrored the elegance of their brand. See how we combined refined typography, stunning visuals, and intuitive design to deliver an online experience that truly resonates with their discerning clientele.",
+      tags: [
+        "Digital Catalog & Typography",
+        "Branding",
+        "Website",
+        "Logo",
+        "Art Direction",
+      ],
+      imageUrls: [
+        "/images/projects/5/details/Image1.jpg",
+        "/images/projects/5/details/Image2.jpg",
+        "/images/projects/5/details/Image3.jpg",
+        "/images/projects/5/details/Image4.jpg",
+        "/images/projects/5/details/Image5.jpg",
+        "/images/projects/5/details/Image6.jpg",
+        "/images/projects/5/details/Image7.jpg",
+      ],
+    },
   },
 ];

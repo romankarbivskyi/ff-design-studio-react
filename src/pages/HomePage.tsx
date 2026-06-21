@@ -1,5 +1,4 @@
-import { Hero, OurWork } from "../components";
-import Stats from "../components/Stats";
+import { Hero, OurWork, Stats } from "../components";
 
 const HomePage = () => {
   return (

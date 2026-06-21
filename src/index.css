@@ -51,3 +51,7 @@
 @utility no-scrollbar {
   scrollbar-width: none;
 }
+
+@utility para1 {
+  @apply text-[20px] leading-[121%] tracking-[-5%];
+}

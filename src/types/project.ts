@@ -5,4 +5,10 @@ export interface Project {
   description: string;
   imageUrls: string[];
   projectUrl: string;
+  details: {
+    title: string;
+    description: string;
+    tags: string[];
+    imageUrls: string[];
+  };
 }

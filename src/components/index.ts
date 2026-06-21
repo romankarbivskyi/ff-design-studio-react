@@ -1,3 +1,9 @@
 export { default as Navbar } from "./Navbar";
 export { default as Hero } from "./Hero";
 export { default as OurWork } from "./OurWork";
+export { default as Footer } from "./Footer";
+export { default as Stats } from "./Stats";
+export { default as ConnectWithUs } from "./ConnectWithUs";
+export { default as ProjectIntro } from "./ProjectIntro";
+export { default as ImageStack } from "./ImageStack";
+export { default as OtherProjects } from "./OtherProjects";
